@@ -25519,11 +25519,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092027376093650701, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.081
+      value: 0.017
       objectReference: {fileID: 0}
     - target: {fileID: 8092027376093650701, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.014
+      value: 0.059
       objectReference: {fileID: 0}
     - target: {fileID: 8092027376093650701, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26332,6 +26332,10 @@ PrefabInstance:
       value: MiningDirt
       objectReference: {fileID: 0}
     - target: {fileID: 8092027376093610797, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
+      propertyPath: m_TagString
+      value: MiningDirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092027376093610797, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -26393,6 +26397,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
+--- !u!1 &978823995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8092027376093610797, guid: 9a546255f9b630e4e811527e496eb6da, type: 3}
+  m_PrefabInstance: {fileID: 978823994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &978824000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978823995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c4e1b71f0486747bc4078e07f270fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &978862999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27109,7 +27130,6 @@ GameObject:
   - component: {fileID: 1003041046}
   - component: {fileID: 1003041049}
   - component: {fileID: 1003041050}
-  - component: {fileID: 1003041051}
   m_Layer: 0
   m_Name: MiningGround
   m_TagString: Untagged
@@ -27184,7 +27204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.96, y: 1.462}
+  m_AnchoredPosition: {x: 19.96, y: 0.923}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1003041049
@@ -27201,18 +27221,6 @@ BoxCollider:
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!114 &1003041050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003041043}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44032382a2497f94480c8f5c9b0b67fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1003041051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

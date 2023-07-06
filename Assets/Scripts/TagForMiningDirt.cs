@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerHide : MonoBehaviour
+public class TagForMiningDirt : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.tag = "MiningDirt"; 
     }
 
     // Update is called once per frame
@@ -15,13 +15,4 @@ public class TriggerHide : MonoBehaviour
     {
         
     }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Renderer test;
-        test = GetComponent<MeshRenderer>();
-        test.enabled = false;
-        
-    }
-    
 }
