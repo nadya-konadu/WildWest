@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - MiningDirt
+  - DirtPan
+  - GoldPan
   layers:
   - Default
   - TransparentFX
